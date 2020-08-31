@@ -20,7 +20,7 @@ main {
 }
 
 body p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 2;
     font-weight: 100;
 }
@@ -39,7 +39,7 @@ body h3.title,
 body h4.title,
 body h5.title,
 body h6.title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-weight: 500;
  }
 
@@ -49,7 +49,7 @@ body h3.subtitle,
 body h4.subtitle,
 body h5.subtitle,
 body h6.subtitle {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cinzel', serif;
     color: #C69C6D;
 }
 
@@ -77,6 +77,52 @@ input.input::placeholder,
 textarea.textarea::placeholder {
     color: #fff;
     font-size: 14px;
+}
+
+/* VIDEO BACKGROUND */
+
+.video-container,
+.youtube-container {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.video-container video,
+.youtube-container #ytplayer-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+
+.youtube-container iframe#ytplayer-box {
+    zoom: 8;
+    -moz-zoom:8;
+}
+
+@media screen and (max-width: 768px) {
+    .youtube-container,
+    .video-container {
+        display: none;
+    }
+}
+
+.black-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(0 20 40 / 24%); 
 }
 
 /* HERO */
@@ -208,6 +254,13 @@ section.hero.slick-slide {
 
 /* NAVBAR */
 
+@media screen and (min-width: 1024px){
+    .navbar-end {
+        justify-content: flex-end;
+        margin: 0 auto;
+    }
+}
+
 div.hero-head {
     position: absolute;
     left: 0;
@@ -231,7 +284,7 @@ a.navbar-item img {
 a.navbar-item,
 a.navbar-link {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     transition: color .3s ease;
 }

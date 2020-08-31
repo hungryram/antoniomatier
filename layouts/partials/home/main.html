@@ -1,37 +1,44 @@
-
+<section class="hero is-fullheight hero__container">
+  <!-- Hero head: will stick at the top -->
 {{ partial "global/navbar.html" . }}
 
-<div class="home-slide">
-{{ range .Site.Data.design.home_slideshow.slideshow }}
-<section class="hero lax" style="background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url({{ .image }});height:100vh;background-size:cover;background-position:center" data-lax-bg-pos-y="0 0, vh 200 500">
-  <!-- Hero head: will stick at the top -->
+  <!-- Enable MP4 Video Background -->
+    <div class="video-container">
+      <video playsinline autoplay loop muted id="bgvid">
+          <source src="https://hungryram.s3-us-west-1.amazonaws.com/antoniomatier.mp4" type="video/mp4">
+      </video>
+  </div>
 
+<div class="black-overlay">
+</div>
 
   <!-- Hero content: will be in the middle -->
-  <div class="hero-body slide-content">
-    <div class="container has-text-left">
-      <div class="columns">
-        <div class="column is-half has-text-white">
-          <h1 class="title is-1 has-text-white is-size-3-mobile">{{ .heading }}</h1>
-          {{ if .link }}<a href="{{ .link }}" class="hero-button is-size-7-mobile">{{ .link_text }}</a>{{ end }}
-          <p class="mt-6 is-size-7-mobile">{{ .hero_body }}</p>
+  <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h1 class="hero-title title is-1 has-text-white is-uppercase pb-6">Antonio Matier</h1>
+            <h2 class="subtitle has-text-white is-size-4">Boutique 	&#10020; Luxury 	&#10020; Global</h2>
+            <a href=""></a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+   <!-- Hero footer: will stick at the bottom -->
+{{ if .Site.Data.idx.enable_home_quick_search }}
+<div class="hero-foot">
+    <div class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/{{ $.Site.Data.idx.idx_id }}?style=horizontal"></script>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="section hero-foot">
-    <div class="container">
-      <div class="columns has-text-left has-text-white is-mobile is-vcentered">
-        <div class="column quicksearch">
-          <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/133408?style=horizontal"></script>
-          <p>Or use our <a href="http://www.idxhome.com/listing/search/advanced/133408">advanced search feature</a></p>
-        </div>
-      </div>
-      </div>
-      </div>
+</div>
+{{ end }}
 
 </section>
-{{ end }}
-</div>
