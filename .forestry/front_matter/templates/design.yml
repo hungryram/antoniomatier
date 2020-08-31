@@ -69,6 +69,7 @@ fields:
       labelField: 
     label: Slideshow
   label: Home Slideshow
+  hidden: true
 - name: banner
   type: field_group
   config: {}
