@@ -1,4 +1,4 @@
-baseURL = "https://pagani.netlify.app/"
+baseURL = "https://antoniomatier.netlify.app/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
