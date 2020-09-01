@@ -1,9 +1,9 @@
 {{ $bio := .Site.Data.home.agent_bio }}
-<div class="about-container" style="background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(uploads/background3.jpg) no-repeat center;background-size:cover;padding-top:5%;padding-bottom:5%;">
+<div class="about-container">
 <div class="section">
     <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column has-text-centered">
+        <div class="columns is-vcentered is-variable is-8">
+            <div class="column has-text-centered is-4">
                 {{ if $bio.photo }}
                 <img src="{{ $bio.photo }}" alt="" class="about-home-image">
                 {{ end }}
@@ -11,17 +11,22 @@
             <div class="column">
                 <div class="content">
                     {{ if $bio.heading }}
-                        <h1 class="title is-1 is-size-3-mobile has-text-white is-uppercase">{{ $bio.heading }}</h1>
+                        <h1 class="title is-1 is-size-3-mobile is-uppercase">{{ $bio.heading }}</h1>
                     {{ end }}
                     {{ if $bio.heading }}
-                        <p class="has-text-white is-size-5 mb-6">{{ $bio.subtitle }}</p>
+                        <p class="is-size-5 mb-6">{{ $bio.subtitle }}</p>
                     {{ end }}
-                    {{ if $bio.body_text }}
-                    <p style="color: #ccc">{{ $bio.body_text }}</p>
-                    {{ end }}
-                    {{ if $bio.link }}
-                        <a href="{{ $bio.link }}" class="about-btn">{{ $bio.link_text }}</a>
-                    {{ end }}
+                    <div class="columns">
+                        <div class="column">
+                            <p>For more than 20 years my team and I have been assisting buyers and sellers alike with making their real estate dreams come true.  We are a seasoned group of real estate professionals bringing to the table more than 90 years of combined industry tenure, unparalleled knowledge, experience and client service.</p>
+                            <p>When we founded “California Homes It’s A Lifestyle,” we were looking to establish a boutique real estate firm that not only exemplifies unparalleled industry knowledge, but rather: Unparalleled industry knowledge, experience and client service.</p>
+                        </div>
+                        <div class="column">
+                            <p>Having purchased my first home at the age of 20, I felt like my realtor had no clue!  Not only did the realtor not have a clue, they also lacked the ability and desire to listen to me in order to determine my needs.  I found that their main focus was to make a sale and not ensuring that I landed where I wanted to be!  As an inexperienced and naive buyer I learned much from that experience.</p>
+                            <br>
+                            <a href="/" style="border-bottom: 2px solid #631B33">Read More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

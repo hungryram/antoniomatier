@@ -20,17 +20,34 @@ main {
 }
 
 body p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 2;
     font-weight: 100;
+    font-size: 14px;
 }
 
 div.content a {
-    color: #C69C6D;
+    color: #631B33;
 }
 
 div.content.single-content p {
     font-weight: 300;
+}
+
+div a.primary-btn {
+    background: #631B33;
+    border: 1px solid #631B33;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 13px;
+    transition: all .3s ease;
+}
+
+div a.primary-btn:hover {
+    background: transparent;
+    border: 1px solid #631B33;
+    color: #000;
+    transition: all .3s ease;
 }
 
 body h1.title,
@@ -49,12 +66,12 @@ body h3.subtitle,
 body h4.subtitle,
 body h5.subtitle,
 body h6.subtitle {
-    font-family: 'Cinzel', serif;
-    color: #C69C6D;
+    font-family: 'Lato', sans-serif;
+    color: #631B33;
 }
 
 div.page-title h1 span {
-    color: #C69C6D;
+    color: #631B33;
 }
 
 /* FORMS */
@@ -66,7 +83,7 @@ textarea.textarea {
 }
 
 button.button {
-    background: #C69C6D;
+    background: #631B33;
     width: 100%;
     border-radius: 0;
     border: 0;
@@ -136,6 +153,12 @@ textarea.textarea::placeholder {
     margin: 20px auto;
 } */
 
+
+h2.subtitle.has-text-white.is-size-6 {
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
 .hero-body.slide-content {
     display: flex;
     align-items: center;
@@ -158,7 +181,7 @@ a.hero-button {
 }
 
 a.hero-button:hover {
-    color: #C69C6D;
+    color: #631B33;
     transition: width .3s ease;
 }
 
@@ -284,7 +307,7 @@ a.navbar-item img {
 a.navbar-item,
 a.navbar-link {
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     transition: color .3s ease;
 }
@@ -295,7 +318,7 @@ a.navbar-link:not(.is-arrowless)::after {
 
 div a.navbar-item:hover {
     background: none;
-    color: #C69C6D;
+    color: #631B33;
     transition: color .3s ease;
 }
 
@@ -394,14 +417,14 @@ div.featured-listing {
     width: 50px;
     height: 5px;
     content: "";
-    background: #C69C6D;
+    background: #631B33;
 }
 
 .team-carousel button.slick-prev:before {
     content: "\00AB";
     font-size: 40px;
     font-weight: 900;
-    color: #C69C6D;
+    color: #631B33;
     transition: all .3s ease;
     font-family: 'Font Awesome\ 5 Free';
 }
@@ -410,7 +433,7 @@ div.featured-listing {
     content: "\00BB";
     font-size: 40px;
     font-weight: 900;
-    color: #C69C6D;
+    color: #631B33;
     transition: all .3s ease;
     font-family: 'Font Awesome\ 5 Free';
 }
@@ -457,7 +480,7 @@ div.team-border:after {
 }
 
 .featured-listing-content a {
-    color: #C69C6D;
+    color: #631B33;
     transition: all .3s ease;
     font-style: italic;
 }
@@ -559,7 +582,7 @@ div.listing-detail-container .columns:not(:last-child) {
 }
 
 .single-price.title.is-4 {
-    color: #C69C6D;
+    color: #631B33;
 }
 
 .detail-title {
@@ -576,7 +599,7 @@ div.listing-detail-container .columns:not(:last-child) {
 .detail-title:before {
     content: "";
     position: absolute;
-    background: #C69C6D;
+    background: #631B33;
     width: 30px;
     height: 2px;
     left: 0px;
@@ -637,11 +660,11 @@ div.listing-agent-container {
 
 .listing-team-content a.readmore {
     font-style: italic;
-    color: #C69C6D;
+    color: #631B33;
 }
 
 .listing-team-content h1.title.is-5 span {
-    color: #C69C6D;
+    color: #631B33;
     font-size: 1rem;
 }
 
@@ -651,7 +674,7 @@ h1.title.more-prop {
 }
 
 h1.title.more-prop span {
-    color: #C69C6D;
+    color: #631B33;
 }
 
 /* SINGLE TEAM PAGE */
@@ -686,22 +709,11 @@ img.about-home-image {
     position: relative;
     z-index: 2;
     margin: 50px 0;
-    box-shadow: -10px 19px 25px 0px #070707;
-}
-
-a.about-btn {
-    position: relative;
-    padding-bottom: 10px;
-    color: #fff;
-    transition: width .2s ease;
-}
-
-.featured-team-content p {
-    color: #999;
+    box-shadow: -10px 19px 25px 0px #aaaaaa;
 }
 
 .featured-team-content a {
-    color: #C69C6D;
+    color: #631B33;
     transition: all .3s ease;
     font-style: italic;
 }
@@ -710,46 +722,59 @@ a.about-btn {
     transition: all .3s ease;
 }
 
-a.about-btn:before {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 2px;
-    background: #C69C6D;
-    bottom: 0;
-    transition: width .2s ease;
-}
-
-a.about-btn:hover {
-    transition: width .2s ease;
-    color: #ccc;
-}
-
-a.about-btn:hover:before {
-    transition: width .2s ease;
-    width: 100px;
-}
 
 /* FEATURED */
 
-div.bg-image {
-    position: relative;
-}
-
-div.inner-box {
-    background: #313131;
-    width: 300px;
+.featured__container h1.title.is-1:before {
+    content: "";
     position: absolute;
+    width: 300px;
+    height: 4px;
+    background: #1e1e1e;
     bottom: 0;
-    padding: 20px;
-    transition: all .3s ease;
 }
 
-a.featured-container:hover div.inner-box {
-    padding: 50px;
-    width: 350px;
-    transition: all .3s ease;
+.featured-img,
+iframe.featured-vid {
+    position: relative;
+    z-index: 5;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 20px 0px #1e1e1e;
 }
+
+div.left-box {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    bottom: 0;
+    background: #2c2c2c;
+    width: 100%;
+    z-index: -1;
+}
+
+div.right-box {
+    position: absolute;
+    right: -200px;
+    top: 0;
+    bottom: 0;
+    background: #2c2c2c;
+    width: 100%;
+    z-index: -1;
+}
+
+iframe.home-of-the-week {
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width:768px){
+    iframe.home-of-the-week {
+        height: 40vh;
+    }
+}
+
+/* HOME FORM */
 
 /* BLOG */
 div.blog-date h1 {
@@ -759,12 +784,12 @@ div.blog-date h1 {
 a.blog-btn {
     transition: color .2s ease;
     font-style: italic;
-    color: #C69C6D;
+    color: #631B33;
 }
 
 a.blog-btn:hover {
     transition: color .2s ease;
-    color: #C69C6D;
+    color: #631B33;
 }
 
 div.blog-summary h6.subtitle.is-6 {
@@ -799,7 +824,7 @@ article.media+.media {
 
 .pagination li a {
     transition: all .3s ease;
-    color: #C69C6D;
+    color: #631B33;
 }
 
 .pagination li:hover a {
@@ -831,6 +856,192 @@ li.active a {
     display: none;
 }
 
+/* HOME PANELS */
+
+div.panel__container {
+    padding-top: 100px;
+}
+
+div.panel {
+    height: 15rem;
+    border-radius: 0;
+}
+
+div.panel__container a {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL ONE */
+.panel-inner-one {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/whitefireplace.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.panel-inner-one:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL TWO */
+.panel-inner-two {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/kitchen.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-two:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL THREE */
+.panel-inner-three {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/whitelivingroom.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-three:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL FOUR */
+.panel-inner-four {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/san-diego.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-four:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL FIVE */
+.panel-inner-five {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/whitehousewithpool.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-five:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+
+/* PANEL SIX */
+.panel-inner-six {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/modernkitchen.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-six:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+
+/* PANEL SEVEN */
+.panel-inner-seven {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/graylivingroom.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-seven:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+
+/* PANEL EIGHT */
+.panel-inner-eight {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/vila.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-eight:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL NINE */
+.panel-inner-nine {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/mansion.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-nine:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL TEN */
+.panel-inner-ten {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/squarehome.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-ten:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL ELEVEN */
+.panel-inner-eleven {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/smallhome.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-eleven:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+/* PANEL TWLEVE */
+.panel-inner-twelve {
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/uploads/la.jpg") no-repeat center;
+    background-size:cover;
+    position: relative;
+}
+
+.panel-inner-twelve:hover a{
+    background:rgb(0 0 0 / 71%);
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width:768px){
+    div.panel-inner-one,
+    div.panel-inner-two,
+    div.panel-inner-three {
+        height: 12rem;
+    }
+
+    div.panel__container a {
+        font-size: 2rem;
+    }
+}
+
+/* HOME IDX LIST */
+
+
+
 /* CONTACT PAGE */
 
 .contact-box {
@@ -856,18 +1067,37 @@ form.contact-page textarea.textarea::placeholder {
 /* FOOTER */
 
 footer.footer {
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,9)),
-    url("/uploads/splash2.jpg") no-repeat center 10%;
+    background: url("/uploads/footersanfran.jpg") no-repeat center;
     background-size: cover;
+}
+
+footer.footer hr {
+    background: #2c2c2c;
 }
 
 
 footer.footer ul li a,
 footer.footer p,
 footer.footer a  {
-    color: #999999;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
 }
 
 .quicksearch a {
-    color: #C69C6D;
+    color: #631B33;
+}
+
+.footer-form input.input,
+.footer-form textarea.textarea {
+    border-bottom: 1px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.footer-form button.button {
+    background: white;
+    color: #000;
+    text-transform: uppercase;
 }

@@ -1,47 +1,44 @@
-{{ $featured := .Site.Data.home.featured_section }}
-{{ $featuredFirst := .Site.Data.home.featured_section.first_featured }}
-{{ $featuredSecond := .Site.Data.home.featured_section.second_featured }}
-<div class="section" style="padding-top:10%;padding-bottom:10%">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-6">
-                {{ if $featured.subtitle }}
-                    <h5 class="subtitle is-5 is-uppercase">{{ $featured.subtitle }}</h5>
-                {{ end }}
-                {{ if $featured.heading }}
-                    <h2 class="title is-2 pt-5">{{ $featured.heading }}</h2>
-                {{ end }}
-                <div class="columns is-mobile">
-                    <div class="column">
-                        {{ if $featured.body }}
-                        <p class="mb-6">{{ $featured.body }}</p>
-                        {{ end }}
-                    </div>
-                    <div class="column">
-                        <p>Here you will find a wide variety of useful information and resources designed to help you buy or sell a home more effectively in Southern California. From advice about finding a mortgage or preparing your home to sell, it's all available here on our web site.
-                        </p>
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column">
-                        {{ if $featured.link }}
-                        <a href="{{ $featured.link }}" class="about-btn has-text-black">{{ $featured.link_text }}</a>
-                        {{ end }}
-                    </div>
+<div class="featured__container">
+    <div class="section">
+        <div class="container">
+            <div class="columns mb-6">
+                <div class="column" style="position: relative">
+                    <h1 class="title is-1 is-size-4-mobile">Recent Sales Portfolio</h1>
                 </div>
             </div>
-            {{ if $featuredFirst }}
-                <div class="column">
-                    <a href="{{ $featuredFirst.link }}" class="featured-container">
-                        <div class="bg-image" style="background:url({{ $featuredFirst.image }}) no-repeat center;background-size:cover;height: 500px;">
-                            <div class="inner-box">
-                                <h2 class="title is-5 has-text-white">{{ $featuredFirst.subtitle }}</h2>
-                                <h4 class="subtitle is-6">{{ $featuredFirst.heading }}</h4>
-                            </div>
-                        </div>
-                    </a>
+            <div class="columns is-vcentered is-variable is-8">
+                <div class="column" style="position:relative;">
+                    <div class="left-box"></div>
+                    <img src="/uploads/featured.jpg" class="featured-img lax" alt="" data-lax-preset="eager-120">
                 </div>
-            {{ end }}
+                <div class="column">
+                    <h1 class="title is-3">11270 SUN VALLEY DRIVE</h1>
+                    <h4 class="subtitle is-6">Represented Buyer</h4>
+                    <p>Privacy and seclusion in your magnificent uniquely styled home in the coveted Oakland Hills! Your magnificent 4+ bedroom, 3-bathroom has light & space. Nestled on 1.02 acres backing Chabot Regional Park, your estate has easy access to the Bay Area’s finest moments away. Wander through the majestic cathedral door into a spectacular foyer. Rich Koa hardwood and Moorish and European style details grace your home. Watch colors dance through your stained-glass windows.</p> 
+                    <p>This grand manor is perfect for entertaining with a spacious dining room and large kitchens both inside and out. Enjoy a cocktail at the walnut bar in the family room or tune in for a movie night in the living room as guests chatter about the meticulously carved mantels pieces featured in each. Access the bedrooms by elevator or meander up the handcrafted grand staircase. Romance the night away as you soak in your Jacuzzi tub and snuggle up by the fireplace in your master suite with a private balcony. Your own one of a kind!</p>
+                </div>
+            </div>
+            <div class="columns is-vcentered is-variable is-8">
+                <div class="column">
+                    <h1 class="title is-3">2238 170th Avenue, Castro Valley</h1>
+                    <h4 class="subtitle is-6">Presented by Antonio Matier</h4>
+                    <p>Welcome to 2238 170th Avenue, a beautiful tri-Level home located in quaint Castro Valley, Ca. From the moment you enter this masterpiece you experience sheer serenity! The open floor plan this lovely home offers is both relaxing and inspiring at the same time. Prepare your favorite culinary delights in your newly remodeled chef’s kitchen… no expense spared. Prepare your family’s favorite vegetables on your gorgeous Corian countertops. Sauté them on your professional 6 burner Thor Kitchen range. A very well-appointed formal living room welcomes great entertaining with ease and flow into the neighboring dining room… where dinner is served in grand style! As you ascend to the top of the stairs to your left you enter the master bedroom and bath; complemented by a wood burning fireplace. And, to the right are two generously sized guest bedrooms that are serviced by a full bathroom. As you enter the rear yard from the dining room you immediately experience paradise! Welcome Home!</p>
+                </div>
+                <div class="column" style="position:relative;">
+                    <div class="right-box"></div>
+                    <iframe class="featured-vid lax" title="vimeo-player" src="https://player.vimeo.com/video/355093230" width="640" height="360" frameborder="0" allowfullscreen data-lax-preset="eager-120"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section pt-6">
+        <div class="container">
+            <div class="columns mb-4">
+                <div class="column" style="position: relative">
+                    <h1 class="title is-1 is-size-4-mobile">Home of the Week</h1>
+                </div>
+            </div>
+            <iframe class="home-of-the-week" title="vimeo-player" src="https://player.vimeo.com/video/443544047" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
