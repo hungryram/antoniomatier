@@ -1,16 +1,39 @@
 +++
-meta_description = "Here you will find a wide variety of useful information and resources designed to help you buy or sell a home more effectively in Southern California"
+meta_description = "For more than 20 years my team and I have assisted buyers and sellers alike with making their real estate dreams come true."
 title = "About"
-title_tag = "About Wallstreet Realty"
+title_tag = "About - Lifestyle California"
 [menu.main]
 parent = "About"
 weight = 1
 
 +++
-Our philosophy is different than that of a franchised real estate company because we realize each property is unique. Buyers and Sellers deserve our undivided attention. Marketing plans should be flexible, commissions negotiable depending upon the transaction, and the customers satisfaction should always be the goal.
+For more than 20 years my team and I have assisted buyers and sellers alike with making their real estate dreams come true. We are a seasoned group of real estate professionals bringing to the table more than 90 years of combined industry tenure, unparalleled knowledge, experience and client service.
 
-Here you will find a wide variety of useful information and resources designed to help you buy or sell a home more effectively in Southern California. From advice about finding a mortgage or preparing your home to sell, it's all available here on our web site.
+When we founded “California Homes It’s A Lifestyle,” we were looking to establish a boutique real estate firm that not only exemplifies unparalleled industry knowledge, but rather: Unparalleled industry knowledge, experience and client service.
 
-You can also search for your ideal home by viewing current listings with detailed descriptions and photos. Or you can get help determining the value of your home by requesting a report that includes the prices of similar homes that recently sold or are currently for sale.
+Having purchased my first home at the age of 20, I felt like my realtor had no clue! Not only did the realtor not have a clue, they also lacked the ability and desire to listen to me in order to determine my needs. I found that their main focus was to make a sale and not ensuring that I landed where I wanted to be! As an inexperienced and naive buyer I learned much from that experience.
 
-So whether you are buying or selling, feel free to [contact us](https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.wallstrealty.com%2Fdefault.asp.f-contactme%3Ffbclid%3DIwAR0ib0bHAdN6Vg78nsqftayDxoSXpqUBZXvwa_Xu-HqJHSoWOpPy0xzCEtU&h=AT2CKuRsDM22nomP2ekbp3ZiCeUAvgxwtCfdY5p9JIZW7SYajnhDsR4I6q7RHN8-Haovo_HpdhV-TkMouAIBxMOHGxMng6KfW6o_CB91YrsaOj_tsTa3V2OuHg4qU-w2Gmr-_-7srIH-koZ6s5k24g) and we will be happy to help you with all of your real estate needs
+_Here are three key points:_
+
+_1) Be realistic with your budget and your idea of what you consider to be your ideal home._
+
+_2) Don’t waste valuable time working with an agent that shows no true interest in you procuring your ideal home_
+
+_3) Retain the services of a seasoned realtor that will partner with you. In doing so you will avoid unnecessary frustrations and pitfalls._
+
+Our firm is all about the experience, great client service coupled with unparalleled industry knowledge and seasoned realtors = guaranteed results and client satisfaction.
+
+If our clients are happy we are happy…your complete happiness is paramount!
+
+With that said, having lived in many counties, cities and districts throughout the San Francisco Greater Bay Area, has afforded me the opportunity to develop vast knowledge of the San Francisco Greater Bay Area housing market, neighborhoods and schools. Applying this knowledge when assisting my buyers and sellers with the acquisition or offering of a home has been majorly beneficial.
+
+I am a master negotiator, deal maker and marketer. I will ensure if you are a buyer you will pay the best price possible with the best terms possible for your new home. If you are a seller I will ensure you receive top dollar and the best terms possible when selling your home. I make the home buying and selling process very simple.
+
+Why work with mediocrity when you can work with a successful over achiever?
+
+Give me a call, text or email to get started today with your no-cost evaluation.
+
+I looking forward to working with you!
+
+  
+![](/uploads/antonio-matier-signature.png)
