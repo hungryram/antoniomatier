@@ -1,5 +1,4 @@
 +++
-draft = true
 meta_description = "Antonio H. Matier A Licensed Realtor BRE # 01519211 | California Homes It’s A Lifestyle A Licensed California Corporation BRE # 01928529."
 title = "Privacy Policy"
 title_tag = "Privacy Policy"
