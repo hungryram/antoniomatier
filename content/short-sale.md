@@ -2,6 +2,9 @@
 meta_description = "Navigating and negotiating a short sale or pre-foreclosure is not an easy task! It requires experience, knowledge, an excellent negotiating aptitude and fortitude."
 title = "Short Sale"
 title_tag = "Short Sale - Lifestyle California"
+[menu.main]
+parent = "Client Relations"
+weight = 3
 
 +++
 ### Short Sale
