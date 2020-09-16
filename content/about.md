@@ -3,8 +3,8 @@ meta_description = "Here you will find a wide variety of useful information and 
 title = "About"
 title_tag = "About Wallstreet Realty"
 [menu.main]
-parent = "Contact"
-weight = 2
+parent = "About"
+weight = 1
 
 +++
 Our philosophy is different than that of a franchised real estate company because we realize each property is unique. Buyers and Sellers deserve our undivided attention. Marketing plans should be flexible, commissions negotiable depending upon the transaction, and the customers satisfaction should always be the goal.
