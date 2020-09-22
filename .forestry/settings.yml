@@ -44,7 +44,6 @@ sections:
 - type: document
   path: content/testimonials/_index.md
   label: Reviews
-  match: "**/*"
 - type: document
   path: data/pageconfig.yaml
   label: Page Config
