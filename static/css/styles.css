@@ -316,7 +316,8 @@ a.navbar-link:not(.is-arrowless)::after {
     border-color: white;
 }
 
-div a.navbar-item:hover {
+div a.navbar-item:hover,
+div a.navbar-link:hover {
     background: none;
     color: #631B33;
     transition: color .3s ease;
