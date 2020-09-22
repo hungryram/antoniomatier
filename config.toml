@@ -5,19 +5,6 @@ summaryLength = 30
 name = "Login"
 weight = 9
 [[menu.main]]
-name = "Testimonials"
-parent = "About"
-url = "/testimonials"
-weight = 3
-[[menu.main]]
-name = "Contact Us"
-parent = "About"
-url = "/contact"
-weight = 2
-[[menu.main]]
-name = "About"
-weight = 8
-[[menu.main]]
 name = "Concierge"
 weight = 7
 [[menu.main]]
@@ -125,7 +112,4 @@ url = "/"
 weight = 1
 [taxonomies]
 category = "categories"
-city = "city"
-status = "status"
 tag = "tags"
-zip = "zip"
