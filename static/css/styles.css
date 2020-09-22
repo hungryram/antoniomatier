@@ -366,14 +366,14 @@ a.navbar-link:hover {
 /* MOBILE NAV */
 
 @media (max-width: 1023px){
-    .navbar-end {
+    /* .navbar-end {
         display: flex;
         -ms-display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
         flex-direction: column;
-    }
+    } */
 
     .navbar-menu {
         left: 20px;
@@ -385,11 +385,18 @@ a.navbar-link:hover {
         position: absolute;
         left: 0;
         right: 0;
-        top: 0;
         background: black;
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    a.navbar-item:hover {
+        background:transparent;
+    }
+
+    a.navbar-link.is-active {
+        color: #515151;
     }
 
     .navbar-burger {
