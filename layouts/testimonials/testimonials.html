@@ -1,7 +1,19 @@
 {{ define "main" }}
 <div class="section">
     <div class="container">
-
+        {{ range .Params.testimonials }}
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <div class="notification content">
+                    <p>{{ .body | markdownify }}</p>
+                    <div class="client pt-4">
+                        <h4 class="subtitle is-5 mb-2 has-text-weight-normal">{{ .name }}</h4>
+                        <em>{{ .subtitle }}</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}
