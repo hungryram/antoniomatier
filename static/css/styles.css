@@ -77,9 +77,14 @@ div.page-title h1 span {
 /* FORMS */
 input.input,
 textarea.textarea {
-    background: transparent;
+    background: #fff;
     border-radius: 0;
     color: #fff;
+}
+
+input.input::placeholder,
+textarea.textarea::placeholder {
+    color: #000!important;
 }
 
 button.button {
