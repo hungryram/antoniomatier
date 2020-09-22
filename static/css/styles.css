@@ -206,6 +206,13 @@ a.hero-button:hover:before {
     transition: width .2s ease;
 }
 
+@media screen and (max-width:768px){
+    section.hero {
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/uploads/livingroom.jpg") no-repeat center;
+        background-size:cover;
+    }
+}
+
 /* .home-slide.slick-initialized.slick-slider,
 .listing-carousel.slick-initialized.slick-slider {
     margin-top: -64px;
