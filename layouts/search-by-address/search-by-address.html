@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <h1 class="title is-4">Search by Listing Number</h1>
+                <form method="GET" action="https://lifestyleca.idxhome.com/listing/resultsByListingId/59163" class="listingIdSearchForm">
+                <div class="field is-grouped">
+                    <p class="control is-expanded">
+                        <div class="form-label"> Listing number(s): <span style="font:11px arial;font-weight:normal;">(for multiple, separate by commas)</span> </div>
+                        <input name="listingIdList" type="text" class="listingId input ui-input-text ui-body-c ui-corner-all ui-shadow-inset">
+                    </p>
+                    <p class="control">
+                      <a class="button is-info">
+                        <input data-theme="b" value="Search" type="submit" class="ui-btn-hidden" aria-disabled="false" style="background:transparent;box-shadow:none;border:none;color: #fff;width:100%;height:inherit;cursor:pointer">
+                      </a>
+                    </p>
+                  </div>
+                </form>
+            </div>
+        </div>
+        <div class="columns mt-6">
+            <div class="column is-half is-offset-one-quarter">
+                <h1 class="title is-4">Search by Address</h1>
+                <form id="address" class="searchAddressForm" action="https://lifestyleca.idxhome.com/listing/resultsByAddress/59163" method="GET">
+                    <input type="hidden" name="city.cityId" class="cityId">
+                    <input type="hidden" name="zip" class="zip">
+                    <div class="field">
+                        <label class="label">Street Number</label>
+                    <div class="control">
+                        <input id="streetNumber" name="streetNumber" type="text" value="" class="input ui-input-text ui-body-c ui-corner-all ui-shadow-inset" placeholder="House Number">
+                    </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Street Address</label>
+                    <div class="control">
+                        <input id="street" name="street" placeholder="Partial street name ok" class="input street ui-input-text ui-body-c ui-corner-all ui-shadow-inset" type="text" value="">
+                    </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Enter a City</label>
+                    <div class="control">
+                        <input class="input searchAddress ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-autocomplete-input" placeholder="-Enter a City or Zipcode-" type="text" autocomplete="off">
+                    </div>
+                    </div>
+                    <input data-theme="b" value="Search" type="submit" class="ui-btn-hidden button" aria-disabled="false">
+                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

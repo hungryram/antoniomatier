@@ -79,7 +79,7 @@ input.input,
 textarea.textarea {
     background: #fff;
     border-radius: 0;
-    color: #fff;
+    color: #222;
 }
 
 input.input::placeholder,
