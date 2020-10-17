@@ -1,7 +1,7 @@
 ---
 logo_and_title:
   logo: ''
-  site_title: California Lifestyle
+  site_title: Lifestyle Global Properties
   favicon: "/uploads/favicon.png"
 home_slideshow:
   slideshow:
@@ -15,7 +15,7 @@ home_slideshow:
 banner:
   image: "/uploads/whiteinterior.jpg"
 footer:
-  footer_logo: "/uploads/wallstlogo1.png"
+  footer_logo: ''
   footer_bio: We take pride in providing our clients with exceptional service and
     competitive rates in a no pressure environment. Our agents are selected for their
     attentiveness to clients, their knowledge of the communities we service, and their
