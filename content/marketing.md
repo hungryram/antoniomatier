@@ -1,7 +1,7 @@
 +++
 meta_description = "We take the marketing of your prize possession very seriously! It is our responsibility to ensure your home is marketed not only to your local geographic market, but to the world. "
 title = "Marketing"
-title_tag = "Marketing and Syndication - Lifestyle California"
+title_tag = "Marketing and Syndication - Lifestyle Global Properties"
 [menu.main]
 parent = "Client Relations"
 weight = 2

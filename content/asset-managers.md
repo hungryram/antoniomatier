@@ -1,7 +1,7 @@
 +++
 meta_description = "The REO/Foreclosure Division of California Homes It’s A Lifestyle specializes in the marketing and disposition of bank owned properties."
 title = "Asset Managers"
-title_tag = "Asset Managers - Lifestyle California"
+title_tag = "Asset Managers - Lifestyle Global Properties"
 [menu.main]
 parent = "About"
 weight = 5

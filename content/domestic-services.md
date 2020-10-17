@@ -1,7 +1,7 @@
 +++
 meta_description = "The team at Lifestyle California have taken the search for excellence, quality, dedication and confidentiality to another level when facilitating our search for the Best of the Best in Service Providers."
 title = "Domestic Services"
-title_tag = "Domestic Services - Lifestyle California"
+title_tag = "Domestic Services - Lifestyle Global Properties"
 [menu.main]
 parent = "Concierge"
 weight = 2

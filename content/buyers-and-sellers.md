@@ -1,7 +1,7 @@
 +++
 meta_description = "I take great pride in ensuring your home selling or buying experience is pleasant and non-stressful! Leave the details to me and my team!"
 title = "Buyers and Sellers"
-title_tag = "Buyers and Sellers - Lifestyle California"
+title_tag = "Buyers and Sellers - Lifestyle Global Properties"
 [menu.main]
 name = "Sellers and Buyers"
 parent = "Client Relations"

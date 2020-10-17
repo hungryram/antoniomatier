@@ -1,5 +1,5 @@
 +++
-meta_description = "Antonio H. Matier A Licensed Realtor BRE # 01519211 | California Homes It’s A Lifestyle A Licensed California Corporation BRE # 01928529."
+meta_description = "Antonio H. Matier A Licensed Realtor BRE # 01519211 | Lifestyle Global Properties A Licensed California Corporation BRE # 01928529."
 title = "Privacy Policy"
 title_tag = "Privacy Policy"
 [menu.main]
@@ -9,7 +9,7 @@ weight = 6
 +++
 ### Privacy Policy
 
-Antonio H. Matier A Licensed Realtor BRE # 01519211 | California Homes It’s A Lifestyle A Licensed California Corporation BRE # 01928529.
+Antonio H. Matier A Licensed Realtor BRE # 01519211 | Lifestyle Global Properties A Licensed California Corporation BRE # 01928529.
 
 **Privacy Policy**
 

@@ -1,7 +1,7 @@
 +++
 meta_description = "www.lifestyleca.com strives to ensure that its services are accessible to people with disabilities."
 title = "Accessibility"
-title_tag = "Accessibility - Lifestyle California"
+title_tag = "Accessibility - Lifestyle Global Properties"
 
 +++
 www.lifestyleca.com Accessibility Statement

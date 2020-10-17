@@ -1,7 +1,7 @@
 +++
 meta_description = "Our preferred roster is comprised of the Best of the Best in the industry. Our preferred Architects, Contractors and Handy Men are sure to care for your home as you would."
 title = "Home Repairs & Remodel Contractors"
-title_tag = "Home Repairs & Remodel Contractors - Lifestyle California"
+title_tag = "Home Repairs & Remodel Contractors - Lifestyle Global Properties"
 [menu.main]
 name = "Home Repairs and Remodel Contractors"
 parent = "Concierge"

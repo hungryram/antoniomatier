@@ -1,7 +1,7 @@
 +++
 meta_description = "Our concierge team provides free support for a period of two months to all of our clients. After the two month period has expired, concierge services will still be available for a nominal fee."
 title = "Relocation Concierge Services"
-title_tag = "Relocation Concierge Services - Lifestyle California"
+title_tag = "Relocation Concierge Services - Lifestyle Global Properties"
 [menu.main]
 name = "Client Concierge Services"
 parent = "Concierge"
