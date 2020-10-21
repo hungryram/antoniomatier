@@ -1,7 +1,7 @@
 +++
 meta_description = "For more than 20 years my team and I have assisted buyers and sellers alike with making their real estate dreams come true."
 title = "About"
-title_tag = "About - Lifestyle California"
+title_tag = "About - Lifestyle Global Properties"
 [menu.main]
 parent = "About"
 weight = 1
