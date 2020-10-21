@@ -159,7 +159,7 @@ textarea.textarea::placeholder {
 } */
 
 
-h2.subtitle.has-text-white.is-size-6 {
+h2.subtitle.has-text-white.is-size-5 {
     letter-spacing: 7px;
     text-transform: uppercase;
 }
