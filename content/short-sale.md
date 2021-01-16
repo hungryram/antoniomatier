@@ -17,7 +17,7 @@ My team and I have the knowledge, experience and the much needed negotiating apt
 
 We are standing by, looking forward to working with you to get your deal **_CLOSED!_**
 
-Please contact our client relations department at clientrelations@lifestyleca.com for more details and your **_FREE_** evaluation.
+Please contact our client relations department at clientrelations@lifestyleglobalproperties.com for more details and your **_FREE_** evaluation.
 
 We look forward to working with you!
 
