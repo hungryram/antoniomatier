@@ -37,7 +37,7 @@ Lifestyle Global Properties realtors and support staff take great pride in offer
 * Asset visits twice per week **_(ensuring no vandalism)_**
 * In-House Accounting Staff Dedicated to REO Division
 
-Allow my team and I the opportunity to partner with you to liquidate your non -performing portfolio!
+Allow us the opportunity to partner with you to liquidate your non -performing portfolio!
 
 We look forward to working with you!
 
