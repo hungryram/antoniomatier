@@ -35,6 +35,6 @@ Privacy Contact Information
 
 If you have any questions, concerns, or comments about our privacy policy you may contact us using the information below:
 
-By e-mail: **clientrelations@lifestyleca.com**
+By e-mail: clientrelations@lifestyleglobalproperties.com 
 
 Antonio H. Matier | President
