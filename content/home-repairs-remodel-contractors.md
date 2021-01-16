@@ -18,7 +18,7 @@ These highly talented, licensed respectable professionals are sure to exceed you
 
 The peace of mind you and your family deserve!
 
-Should you desire to utilize the service providers below or another service provider, and your schedule does not permit you to be present for the appointment, please contact out **_Client Relations_** team at clientrelations@lifestyleca.com, we will schedule one of our **_Client Relations_** team members to be present in your new home to ensure the proper installation of your new Phone, Television or Utilities per your instructed specifications.
+Should you desire to utilize the service providers below or another service provider, and your schedule does not permit you to be present for the appointment, please contact out **_Client Relations_** team at clientrelations@lifestyleglobalproperties.com we will schedule one of our **_Client Relations_** team members to be present in your new home to ensure the proper installation of your new Phone, Television or Utilities per your instructed specifications.
 
 This is our way of gifting your valuable time back to YOU!
 
