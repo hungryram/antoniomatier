@@ -19,20 +19,10 @@ Our clients who take advantage of this free service are just awestruck and thank
 **_We will handle every aspect of your move checklist:_**
 
 * Moving date coordination with movers, you and your family.
-
-
 * Onsite supervision of movers and packing **_(ensuring your personal belongings are properly handled and cared for)._**
-
-
 * Onsite supervision of movers unpacking **_(ensuring your personal belongings are properly handled and cared for)._**
-
-
 * Onsite supervision of installation professionals i.e. cable etc. **_(ensuring your installations request is adhered to)_**
-
-
 * Installation and connection of utilities i.e. water, garbage, gas & electric.**_(ensuring everything is operable upon your arrival to your new home)_**
-
-
 * Onsite supervision of repair contractors **_(ensuring your specification are adhered to)_**
 * Onsite supervision of remodel contractors **_(ensuring your specification are adhered to)_**
 
@@ -52,6 +42,6 @@ Thanks Antonio for a job well done!
 
 We strive to make your move as pleasant as possible. Just let me know you desire to take advantage of our concierge services….and we’ll do the rest!
 
-_Selling the California Lifestyle!_
+_It's not business as usual...it's a relationship!_
 
 Antonio H. Matier | President
