@@ -31,8 +31,8 @@ We are master negotiators, deal makers and marketers. We will ensure if you are 
 
 Why work with mediocrity when you can work with a successful over achievers?
 
-Give our office a call or email to get started today with your no-cost evaluation at 1-888-359-5990 or clientrelations@lifestyleglobalproperties.com 
+Give our office a call or email to get started today with your no-cost evaluation at 1-888-359-5990 or clientrelations@lifestyleglobalproperties.com
 
-We looking forward to working with you!
+We are looking forward to working with you!
 
 ![](/uploads/antonio-matier-signature.png)
