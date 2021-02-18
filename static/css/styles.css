@@ -878,9 +878,9 @@ li.active a {
 
 /* HOME PANELS */
 
-div.panel__container {
+/* div.panel__container {
     padding-top: 100px;
-}
+} */
 
 div.panel {
     height: 15rem;
