@@ -7,7 +7,7 @@ parent = "About"
 weight = 1
 
 +++
-For more than 20 years we have assisted buyers and sellers alike with making their real estate dreams come true. We are a seasoned group of real estate professionals bringing to the table more than 90 years of combined industry tenure. When “Lifestyle Global Properties,” was founded we were looking to establish a boutique real estate firm that not only exemplifies unparalleled industry knowledge but also: Unparalleled business acumen, negotiating skill, industry experience and client service.
+For more than 20 years we have assisted buyers and sellers alike with making their real estate dreams come true. We are a seasoned group of real estate professionals bringing to the table more than 90 years of combined industry tenure. When “Lifestyle Global Properties” was founded we were looking to establish a boutique real estate firm that not only exemplifies unparalleled industry knowledge but also: Unparalleled business acumen, negotiating skill, industry experience and client service.
 
 _“Having purchased my first home at the age of 20, I felt like my realtor had no clue! Not only did the realtor not have a clue, they also lacked the ability and desire to listen to me in order to determine my needs. I found that their main focus was to make a sale and not ensuring that I landed where I wanted to be! As an inexperienced and naive buyer I learned much from that experience,” here are three key points I learned:_
 
