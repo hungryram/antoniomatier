@@ -142,7 +142,7 @@
             <h4 class="title is-6 has-text-black is-uppercase">Contact</h4>
                 <p><a href="mailto:{{ $footerContact.email }}">{{ $footerContact.email }}</a></p>
                 <p><a href="tel:{{ $footerContact.phone }}" class="has-text-black">Office: {{ $footerContact.phone }}</a></p>
-                <p><a href="tel:{{ $footerContact.mobile_phone }}" class="has-text-black">Direct: {{ $footerContact.mobile_phone }}</a></p>
+                {{ if $footerContact.mobile_phone }}<p><a href="tel:{{ $footerContact.mobile_phone }}" class="has-text-black">Direct: {{ $footerContact.mobile_phone }}</a></p>{{ end }}
                 <p>Fax: 925-317-7534</p>
                 <p><strong>CA:</strong> {{ $footerAddress.address }} {{ $footerAddress.city }} {{ $footerAddress.state }}, {{ $footerAddress.zip_code }}</p>
                 <p><strong>GA:</strong> 3340 Peachtree Rd Suite 1800 Tower Place 100 Atlanta, Ga 30326</p>

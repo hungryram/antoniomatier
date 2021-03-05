@@ -156,7 +156,7 @@
             <h4 class="title is-6 has-text-black is-uppercase">Contact</h4>
                 <p><a href="mailto:{{ $footerContact.email }}">{{ $footerContact.email }}</a></p>
                 <p><a href="tel:{{ $footerContact.phone }}" class="has-text-black">Office: {{ $footerContact.phone }}</a></p>
-                <p><a href="tel:{{ $footerContact.mobile_phone }}" class="has-text-black">Direct: {{ $footerContact.mobile_phone }}</a></p>
+                {{ if $footerContact.mobile_phone }}<p><a href="tel:{{ $footerContact.mobile_phone }}" class="has-text-black">Direct: {{ $footerContact.mobile_phone }}</a></p>{{ end }}
                 <p>Fax: 925-317-7534</p>
                 <p>{{ $footerAddress.address }} {{ $footerAddress.city }} {{ $footerAddress.state }}, {{ $footerAddress.zip_code }}</p>
           </div>
