@@ -14,16 +14,14 @@
     <div class="section" id="email">
         <div class="container">
             <div class="columns is-variable is-8">
-                <div class="column is-4">
+                <div class="column is-6">
                   <div class="contact-box page-title">
                     <h1 class="title is-3 has-text-white">Our Information</h1>
                     {{ if $contact.mobile_phone }}
                     <div class="columns mt-2 mb-0">
                       <div class="column">
                           <h6 class="title is-6 has-text-white">Cell</h6>
-                      </div>
-                      <div class="column has-text-left">
-                        <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a>
+                          <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a>
                       </div>
                     </div>
                     {{ end }}
@@ -31,9 +29,7 @@
                     <div class="columns mt-2 mb-0">
                       <div class="column">
                           <h6 class="title is-6 has-text-white">Phone</h6>
-                      </div>
-                      <div class="column has-text-left">
-                        <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a>
+                          <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a>
                       </div>
                     </div>
                     {{ end }}
@@ -41,9 +37,7 @@
                     <div class="columns mt-2 mb-0">
                       <div class="column">
                           <h6 class="title is-6 has-text-white">Email</h6>
-                      </div>
-                      <div class="column has-text-left">
-                        <a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
+                          <a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
                       </div>
                     </div>
                     {{ end }}
