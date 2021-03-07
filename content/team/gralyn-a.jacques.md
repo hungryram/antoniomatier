@@ -3,8 +3,8 @@ title = "Gralyn A. Jacques"
 weight = 50
 [contact]
 cell = "415-971-4833"
-email = ""
-phone = ""
+email = "gralyn@gralynjacques.com"
+phone = "888-359-5990"
 [details]
 agent_photo = "/uploads/gralyn3.jpeg"
 languages = []
