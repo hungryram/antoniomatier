@@ -2,3 +2,4 @@
   from = "/*"
   to = "/welcome"
   status = 302
+  force = true #COMMENT: ensure that we always redirect
