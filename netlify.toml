@@ -1,5 +1,5 @@
-# [[redirects]]
-#   from = "/*"
-#   to = "/welcome"
-#   status = 302
-#   force = true #COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "/home-value-request/"
+  to = "https://lifestyleglobalproperties.idxhome.com/valuation/59163"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect

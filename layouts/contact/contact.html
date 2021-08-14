@@ -47,7 +47,7 @@
                   <h2 class="title is-3">Send an Email</h2>
                   <p>We look forward to helping you find your new home</p>
                   {{ if .Site.Data.idx.enable_idx }}
-                  <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://lifestyleca.idxhome.com/contact/{{ .Site.Data.idx.ihomefinder_client_id }}" method="POST" data-ihf-event-bound="true">
+                  <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://lifestyleglobalproperties.idxhome.com/contact/{{ .Site.Data.idx.ihomefinder_client_id }}" method="POST" data-ihf-event-bound="true">
                     <div class="field is-horizontal">
                       <div class="field-body">
                         <div class="field">
@@ -70,6 +70,13 @@
                     <div class="field">
                       <div class="control">
                           <textarea id="message" placeholder="Message" name="message" class="textarea" style="height: 140px;" rows="3"> </textarea>
+                      </div>
+                    </div>
+                    <div class="field-body">
+                      <div class="field">
+                        <div class="control">
+                          <div class="g-recaptcha" data-sitekey="6LeGYU4UAAAAAPvNZspOUi2Q2R9exszBJdQurmoc"></div>
+                        </div>
                       </div>
                     </div>
                     <div class="control">
