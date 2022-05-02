@@ -3,3 +3,9 @@
   to = "https://lifestyleglobalproperties.idxhome.com/valuation/59163"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect

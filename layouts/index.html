@@ -1,7 +1,9 @@
 {{partial "global/head.html" . }}
-{{partial "home/main.html" . }}
-{{partial "home/about.html" . }}
-{{partial "home/northern.html" . }}
-{{partial "home/listings.html" . }}
-{{partial "home/featured.html" . }}
-{{partial "global/footer.html" . }}
+<div class="section">
+    <div class="container has-text-centered">
+        <h1 class="is-size-2">Website Offline</h1>
+        <p class="is-size-5">Please contact the owner <a href="mailto:{{ .Site.Data.profile.primary_contact.email }}">{{ .Site.Data.profile.primary_contact.email }}</a></p>
+    </div>
+</div>
+</body>
+</html>
