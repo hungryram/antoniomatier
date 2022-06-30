@@ -23,7 +23,7 @@
       <div class="column has-text-centered">
         <h1 class="title is-3 is-size-4-mobile">Register your account to save your searches</h1>
         <br>
-        <a href="" class="primary-btn">Register Account</a>
+        <a href="https://lifestyleglobalproperties.idxhome.com/organizer/login/59163" class="primary-btn">Register Account</a>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@
         </div>
           <div class="column footer-form">
             {{ if .Site.Data.idx.enable_idx }}
-            <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://lifestyleca.idxhome.com/contact/{{ .Site.Data.idx.ihomefinder_client_id }}" method="POST" data-ihf-event-bound="true">
+            <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://lifestyleglobalproperties.idxhome.com/contact/{{ .Site.Data.idx.ihomefinder_client_id }}" method="POST" data-ihf-event-bound="true">
               <div class="field is-horizontal">
                 <div class="field-body">
                   <div class="field">
@@ -59,6 +59,13 @@
               <div class="field">
                 <div class="control">
                     <textarea id="message" placeholder="Message" name="message" class="textarea" style="height: 140px;" rows="3"> </textarea>
+                </div>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                    <div class="g-recaptcha" data-sitekey="6LeGYU4UAAAAAPvNZspOUi2Q2R9exszBJdQurmoc"></div>
+                  </div>
                 </div>
               </div>
               <div class="control">
@@ -99,6 +106,7 @@
                   <textarea class="textarea" placeholder="Your Message" name="message"></textarea>
                 </div>
               </div>
+              
               <div class="control">
                 <button class="button" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">Submit</button>
               </div>
@@ -113,43 +121,44 @@
   <div class="container">
     <div class="columns">
       <div class="column is-11 is-offset-1">
-        <div class="columns is-variable is-0">
+        <div class="columns is-variable is-8">
           <div class="column">
-            <img src="{{ .Site.BaseURL }}uploads/californialifestylelogo.png" alt="" width="150"><br><br>
-            <img src="{{ .Site.BaseURL }}uploads/antonio-matier-logo.png" alt="" width="150"><br><br>
-            <img src="{{ .Site.BaseURL }}uploads/caimeiju.png" alt="" width="150"><br><br>
+            <img src="{{ .Site.BaseURL }}uploads/lifestyle-global-properties.png" alt="Lifestyle Global Properties"><br>
+            <img src="{{ .Site.BaseURL }}uploads/sig.PNG" alt="Antonio Matier"><br>
+            <img src="{{ .Site.BaseURL }}uploads/caimeiju.png" alt="" width="150"><br>
             <h2 class="title is-6 mb-0 has-text-black"></h2>
             <br>
             <p class="is-size-7">BRE License #01928529</p>
             <p class="is-size-7">BRE License #01519211</p>
+            <p class="is-size-7">GARE License #78365</p>
           </div>
           <div class="column">
             <h4 class="title is-6 has-text-black is-uppercase">Client Relations</h4>
             <ul>
-              <li><a href="https://www.lifestyleca.com/home-value-request">Home Value Request</a></li>
-              <li><a href="https://www.lifestyleca.com/marketing/">Marketing</a></li>
-              <li><a href="https://www.lifestyleca.com/short-sale/">Short Sale</a></li>
-              <li><a href="https://www.lifestyleca.com/buyers-and-sellers/">Sellers and Buyers</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/home-value-request">Home Value Request</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/marketing/">Marketing</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/short-sale/">Short Sale</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/buyers-and-sellers/">Sellers and Buyers</a></li>
             </ul>
           </div>
           <div class="column">
             <h4 class="title is-6 has-text-black is-uppercase">Search Homes</h4>
             <ul>
-              <li><a href="http://lifestyleca.idxhome.com/report/listing-report/San-Francisco/59163/1131466">San Francisco</a></li>
-              <li><a href="http://lifestyleca.idxhome.com/report/listing-report/santa-clara/59163/1137493">Santa Clara</a></li>
-              <li><a href="http://lifestyleca.idxhome.com/report/listing-report/Oakland/59163/1131467">Oakland</a></li>
-              <li><a href="http://lifestyleca.idxhome.com/report/listing-report/Hayward/59163/1131470">Hayward</a></li>
-              <li><a href="http://lifestyleca.idxhome.com/report/listing-report/lamorinda-Homes/59163/1137410">Lamorinda</a></li>
+              <li><a href="http://lifestyleglobalproperties.idxhome.com/report/listing-report/San-Francisco/59163/1131466">San Francisco</a></li>
+              <li><a href="http://lifestyleglobalproperties.idxhome.com/report/listing-report/santa-clara/59163/1137493">Santa Clara</a></li>
+              <li><a href="http://lifestyleglobalproperties.idxhome.com/report/listing-report/Oakland/59163/1131467">Oakland</a></li>
+              <li><a href="http://lifestyleglobalproperties.idxhome.com/report/listing-report/Hayward/59163/1131470">Hayward</a></li>
+              <li><a href="http://lifestyleglobalproperties.idxhome.com/report/listing-report/lamorinda-Homes/59163/1137410">Lamorinda</a></li>
             </ul>
           </div>
           <div class="column">
             <h4 class="title is-6 has-text-black is-uppercase">About us</h4>
             <ul>
-              <li><a href="{{ .Site.BaseURL }}">About</a></li>
-              <li><a href="/listings">Contact</a></li>
-              <li><a href="/team">Join the Team</a></li>
-              <li><a href="/status/sold">Asset Manager</a></li>
-              <li><a href="/contact">Testimonials</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/about">About</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/contact">Contact</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/join-the-team">Join the Team</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/asset-managers">Asset Manager</a></li>
+              <li><a href="https://www.lifestyleglobalproperties.com/testimonials">Testimonials</a></li>
             </ul>
           </div>
           <div class="column">
@@ -158,16 +167,17 @@
                 <p><a href="tel:{{ $footerContact.phone }}" class="has-text-black">Office: {{ $footerContact.phone }}</a></p>
                 {{ if $footerContact.mobile_phone }}<p><a href="tel:{{ $footerContact.mobile_phone }}" class="has-text-black">Direct: {{ $footerContact.mobile_phone }}</a></p>{{ end }}
                 <p>Fax: 925-317-7534</p>
-                <p>{{ $footerAddress.address }} {{ $footerAddress.city }} {{ $footerAddress.state }}, {{ $footerAddress.zip_code }}</p>
+                <p><strong>CA:</strong> {{ $footerAddress.address }} {{ $footerAddress.city }} {{ $footerAddress.state }}, {{ $footerAddress.zip_code }}</p>
+                <p><strong>GA:</strong> 3340 Peachtree Rd Suite 1800 Tower Place 100 Atlanta, Ga 30326</p>
           </div>
         </div>
         <hr>
         <div class="columns">
           <div class="column has-text-centered-mobile">
-            <p class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}  &middot; <a href="https://hungryram.com" target="_blank" class="is-size-7">Website Developed by Hungry Ram</a></p><br>
+            <p class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}  &middot; <a href="https://hungryram.com" target="_blank" class="is-size-7" rel="nofollow">Website Developed by Hungry Ram</a></p><br>
             <ul>
-              <li class="is-inline-block mr-4 is-size-7"><a href="https://lifestyleca.com/privacy-policy">Privacy Policy</a></li>
-              <li class="is-inline-block mr-4 is-size-7"><a href="https://lifestyleca.com/accessibility">Accessibility</a></li>
+              <li class="is-inline-block mr-4 is-size-7"><a href="https://www.lifestyleglobalproperties.com/privacy-policy">Privacy Policy</a></li>
+              <li class="is-inline-block mr-4 is-size-7"><a href="https://www.lifestyleglobalproperties.com/accessibility">Accessibility</a></li>
             </ul>
           </div>
           <div class="column has-text-right-desktop has-text-centered-mobile">
@@ -192,10 +202,15 @@
   </div>
 </div>
 </footer>
+
+{{ if not $.IsHome }}
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+{{ end }}
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+<script src="{{.Site.BaseURL}}/js/lax.js"></script>
 <script src="{{.Site.BaseURL}}/js/main.js"></script>
 <script>
       (function(d){
